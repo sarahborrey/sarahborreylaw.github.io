@@ -1,0 +1,331 @@
+.gradientbg {
+    background-image: linear-gradient(to bottom right, #855CDB, #5D82EA, #4499F3, #22CAFF);
+
+}
+
+.btn-primary {
+    background-color: white;
+    color: #5D82EA;
+}
+
+.btn-primary:hover {
+   background-color: #5D82EA;
+    color: white;
+    border: none;
+}
+
+.radius {
+    border-radius: 45px;
+}
+
+.footer-radius {
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.bottom-radius {
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(#855CDB, #5D82EA, #4499F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.negative-margin {
+    margin-top: -100px;
+   }
+
+
+   .cards1 {
+    display: flex;
+    padding: 25px 0px;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .card1 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding: 20px;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(199, 195, 195, 0.15);
+    transition: all 0.2s;
+  }
+  
+  .card1:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  
+  .card1:hover {
+    box-shadow: 0 5px 15px rgba(22, 28, 45, .1), 0 .5rem 1rem -.75rem rgba(22, 28, 45, .1) !important;;
+  }
+  
+
+  
+  .card1 .card-link-wrapper1 {
+    margin-top: auto;
+  }
+  
+  .card1 .card-link1 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: var(--red);
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+  
+  .cards1::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .cards1::-webkit-scrollbar-thumb,
+  .cards1::-webkit-scrollbar-track {
+    border-radius: 100px;
+  }
+  
+  .cards1::-webkit-scrollbar-thumb {
+    background: #e6ebf0;
+  }
+  
+  .cards1::-webkit-scrollbar-track {
+    background: #f9fbfd;
+  }
+  
+  @media (min-width: 500px) {
+    .card1 {
+      flex-basis: calc(50% - 10px);
+    }
+  
+    
+    .card1:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  
+  @media (min-width: 990px) {
+    .card1 {
+      flex-basis: calc(calc(100% / 3) - 20px);
+    }
+  
+    .card1:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+
+  /*Card Styles for Testimonial cards*/
+
+  .body2 {
+    margin:  0;
+  }
+  
+  .container2 {
+    max-width: 1400px;
+    padding: 0 20px;
+    
+  }
+  
+  .h22 {
+    font-size: 32px;
+    margin-bottom: 1em;
+  }
+  
+  .cards2 {
+    display: flex;
+    padding: 25px 0px;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding: 20px;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(199, 195, 195, 0.15);
+    transition: all 0.2s;
+  }
+  
+  .card2:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  
+  .card2:hover {
+    box-shadow: 0 5px 15px rgba(22, 28, 45, .1), 0 .5rem 1rem -.75rem rgba(22, 28, 45, .1) !important;;
+  }
+  
+
+  
+  .card2 .card-link-wrapper2 {
+    margin-top: auto;
+  }
+  
+  .card2 .card-link2 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: var(--red);
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+  
+  .cards2::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .cards2::-webkit-scrollbar-thumb,
+  .cards2::-webkit-scrollbar-track {
+    border-radius: 100px;
+  }
+  
+  .cards2::-webkit-scrollbar-thumb {
+    background: #e6ebf0;
+  }
+  
+  .cards2::-webkit-scrollbar-track {
+    background: #f9fbfd;
+  }
+  
+  @media (min-width: 500px) {
+    .card2 {
+      flex-basis: calc(50% - 10px);
+    }
+  
+    
+    .card2:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  
+  @media (min-width: 990px) {
+    .card2 {
+      flex-basis: calc(calc(100% / 3) - 20px);
+    }
+  
+    .card2:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  
+
+  .contact-bg {
+    background-image: url(../img/Contact/contactbg.jpg);
+  }
+
+  .gradientoverlay {
+    background-image: linear-gradient(to bottom right, rgba(133, 92, 219, .9), rgba(93, 130, 234, .9), rgba(68, 153, 243, .9), rgba(34, 202, 255, .9) ),
+    url(../img/Contact/contactbg.jpg);
+    opacity: .2;
+  }
+
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+  .rect {
+    cursor: pointer;
+    shape-rendering: crispEdges;
+    fill: url(#MyGradient);
+}
+
+
+
+.btn-purple {
+color: #5D82EA;
+font-weight: 400;
+}
+
+
+@media(min-width:768px) {
+.py-md-normal {
+   padding-top: 13px;
+   padding-bottom: 13px;
+}
+
+}
+
+@media(min-width:992px) {
+    .py-lg-normal {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+}
+
+@media(min-width:1200) {
+.py-xl-normal {
+    padding-top: 13px;
+    padding-bottom: 13px; 
+}
+}
+
+.py-normal {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.btn-index {
+  --bs-btn-padding-x: 4rem;
+}
+
+.btn-space {
+  margin-top: 15px;
+  margin-right: 15px;
+  z-index: 999;
+}
