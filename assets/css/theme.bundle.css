@@ -4388,7 +4388,7 @@ textarea.form-control-lg {
     color: black;
     display: block;
     font-size: var(--bs-nav-link-font-size);
-    font-weight: var(--bs-nav-link-font-weight);
+    font-weight: 400;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
 }
@@ -4551,7 +4551,7 @@ textarea.form-control-lg {
 .navbar-nav {
     --bs-nav-link-padding-x: 0;
     --bs-nav-link-padding-y: 0.5rem;
-    --bs-nav-link-font-weight: ;
+    --bs-nav-link-font-weight: 400;
     --bs-nav-link-color: var(--bs-navbar-color);
     --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
     --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
@@ -8417,6 +8417,9 @@ textarea.form-control-lg {
     --bs-border-opacity: 1
 }
 
+.w-10 {
+    width: 10%;
+}
 .w-25 {
     width: 25% !important
 }
@@ -10416,7 +10419,7 @@ textarea.form-control-lg {
 }
 
 .fs-sm {
-    font-size: .9375rem !important
+    font-size: 1rem !important
 }
 
 .fs-lg {
@@ -22548,7 +22551,7 @@ code {
 }
 
 .navbar-brand-img {
-    max-height: 2.4rem;
+    max-height: 25px;
     width: auto
 }
 
@@ -22567,7 +22570,7 @@ code {
 }
 
 .navbar-nav .nav-link {
-    font-weight: 600
+    font-weight: 500
 }
 
 .navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
